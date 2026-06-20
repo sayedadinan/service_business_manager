@@ -355,11 +355,11 @@ class _InvoiceFormScreenState extends State<InvoiceFormScreen> {
               pw.TableRow(
                 children: [
                   pw.Padding(
-                    padding: pw.EdgeInsets.all(4),
+                    padding:const  pw.EdgeInsets.all(4),
                     child: pw.Text('Total Amount', style: pw.TextStyle(fontWeight: pw.FontWeight.bold)),
                   ),
                   pw.Padding(
-                    padding: pw.EdgeInsets.all(4),
+                    padding: const pw.EdgeInsets.all(4),
                     child: pw.Text(
                       calculateTotalWithVATOnly(totalAmount).toStringAsFixed(2),
                       style: pw.TextStyle(fontWeight: pw.FontWeight.bold),
